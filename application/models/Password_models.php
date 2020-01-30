@@ -1,0 +1,1 @@
+<?phpclass password_models extends CI_Model {public function update($data, $id) {        $this->db->where("id", $id);      return  $this->db->update("admin", $data);    }    }    ?>
