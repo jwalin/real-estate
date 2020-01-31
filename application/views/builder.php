@@ -5,9 +5,9 @@
         <div class="col-sm-12">
             <div class="card mb-0">
                 <div class="card-header">
-                    <h4 class="card-title mb-0">Category</h4>
+                    <h4 class="card-title mb-0">Builder</h4>
                     <div class="col-auto float-right ml-auto">
-                        <a href="<?php echo base_url('category/add'); ?>" class="btn add-btn"><i class="fa fa-plus"></i> Create Category</a>
+                        <a href="<?php echo base_url('builder/add'); ?>" class="btn add-btn"><i class="fa fa-plus"></i> Create builder</a>
                     </div>
                 </div>
                 <div class="card-body">
@@ -18,18 +18,20 @@
                                 <tr>
                                     <th>No</th>
                                     <th>Name</th>
+                                    <th>Email</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>Tiger Nixon</td>
+                                    <td>John Smith</td>
+                                    <td>JohnSmith@gmail.com</td>
                                     <td>
                                         <div class="dropdown dropdown-action">
                                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="<?php echo base_url('category/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                <a class="dropdown-item" href="<?php echo base_url('builder/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
                                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_approve"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
                                             </div>
                                         </div>
@@ -37,12 +39,13 @@
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Garrett Winters</td>
+                                    <td>Lesley Grauer</td>
+                                    <td>LesleyGrauer@gmail.com</td>
                                     <td>
                                         <div class="dropdown dropdown-action">
                                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="<?php echo base_url('category/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                <a class="dropdown-item" href="<?php echo base_url('builder/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
                                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_approve"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
                                             </div>
                                         </div>
@@ -50,12 +53,13 @@
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Ashton Cox</td>
+                                    <td>Jeffrey Warden</td>
+                                    <td>JeffreyWarden@gmail.com</td>
                                     <td>
                                         <div class="dropdown dropdown-action">
                                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="<?php echo base_url('category/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                <a class="dropdown-item" href="<?php echo base_url('builder/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
                                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_approve"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
                                             </div>
                                         </div>

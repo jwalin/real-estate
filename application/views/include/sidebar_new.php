@@ -4,18 +4,22 @@
 						<ul>
 							
 							<li> 
-								<a href="<?php echo base_url('login/profile'); ?>"><i class="la la-users"></i> <span>Profile</span></a>
+								<a href="<?php echo base_url('profile'); ?>"><i class="la la-users"></i> <span>Profile</span></a>
 							</li>
 							
 							<li> 
-								<a href="<?php echo base_url('login/category'); ?>"><i class="la la-user-secret"></i> <span>Category</span></a>
+								<a href="<?php echo base_url('category'); ?>"><i class="la la-user-secret"></i> <span>Category</span></a>
 							</li>
 							<li> 
-								<a href="<?php echo base_url('login/partner'); ?>"><i class="la la-user-secret"></i> <span>Partners</span></a>
+								<a href="<?php echo base_url('defect_types'); ?>"><i class="la la-ticket"></i> <span>Defect Types</span></a>
 							</li>
 							<li> 
-								<a href="<?php echo base_url('login/builder'); ?>"><i class="la la-ticket"></i> <span>Builder</span></a>
+								<a href="<?php echo base_url('partner'); ?>"><i class="la la-user-secret"></i> <span>Partners</span></a>
 							</li>
+							<li> 
+								<a href="<?php echo base_url('builder'); ?>"><i class="la la-ticket"></i> <span>Builder</span></a>
+							</li>
+							
 							
 						</ul>
 					</div>

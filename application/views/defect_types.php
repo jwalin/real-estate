@@ -5,9 +5,9 @@
         <div class="col-sm-12">
             <div class="card mb-0">
                 <div class="card-header">
-                    <h4 class="card-title mb-0">Category</h4>
+                    <h4 class="card-title mb-0">Defect Types</h4>
                     <div class="col-auto float-right ml-auto">
-                        <a href="<?php echo base_url('category/add'); ?>" class="btn add-btn"><i class="fa fa-plus"></i> Create Category</a>
+                        <a href="<?php echo base_url('defect_types/add'); ?>" class="btn add-btn"><i class="fa fa-plus"></i> Create Defect Types</a>
                     </div>
                 </div>
                 <div class="card-body">
@@ -29,7 +29,7 @@
                                         <div class="dropdown dropdown-action">
                                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="<?php echo base_url('category/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                <a class="dropdown-item" href="<?php echo base_url('defect_types/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
                                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_approve"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
                                             </div>
                                         </div>
@@ -42,7 +42,7 @@
                                         <div class="dropdown dropdown-action">
                                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="<?php echo base_url('category/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                <a class="dropdown-item" href="<?php echo base_url('defect_types/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
                                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_approve"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
                                             </div>
                                         </div>
@@ -55,7 +55,7 @@
                                         <div class="dropdown dropdown-action">
                                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="<?php echo base_url('category/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                <a class="dropdown-item" href="<?php echo base_url('defect_types/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
                                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_approve"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
                                             </div>
                                         </div>

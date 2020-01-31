@@ -16,7 +16,7 @@
 				
 					<!-- Account Logo -->
 					<div class="account-logo" style="margin-top: 10%;">
-						<a href="#"><img src="<?php echo base_url(); ?>assets/images/logo_new.png" alt="Dreamguy's Technologies"></a>
+						<a href="#"><img src="<?php echo base_url(); ?>assets/images/logo_new.jpg" alt="Dreamguy's Technologies"></a>
 					</div>
 					<!-- /Account Logo -->
 					

@@ -1,8 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /projects/realestate/real-estate/
+RewriteBase /projects/realestate/github/real-estate/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /projects/realestate/real-estate/ [L]
+RewriteRule . /projects/realestate/github/real-estate/ [L]
 </IfModule>
