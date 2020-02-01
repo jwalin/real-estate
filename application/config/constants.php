@@ -1,6 +1,5 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-define('IMG_UPLOAD_PATH', 'http://localhost/projects/realestate/upload/');
 /*
 |--------------------------------------------------------------------------
 | Display Debug backtrace

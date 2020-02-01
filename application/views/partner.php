@@ -1,15 +1,36 @@
 
 <div class="content container-fluid">
-
+        
+    <div class="page-header">
+        <div class="row align-items-center">
+            <div class="col">
+                <h3 class="page-title">Trade Partners</h3>
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="<?php echo base_url('home'); ?>">Home</a></li>
+                    <li class="breadcrumb-item active">Trade Partners</li>
+                </ul>
+            </div>
+            <div class="col-auto float-right ml-auto">
+                <a href="<?php echo base_url('partner/add'); ?>" class="btn add-btn"><i class="fa fa-plus"></i>Create Partner</a>
+                
+            </div>
+        </div>
+    </div>
+    
     <div class="row">
         <div class="col-sm-12">
             <div class="card mb-0">
-                <div class="card-header">
-                    <h4 class="card-title mb-0">Partner</h4>
-                    <div class="col-auto float-right ml-auto">
-                        <a href="<?php echo base_url('partner/add'); ?>" class="btn add-btn"><i class="fa fa-plus"></i> Create Partner</a>
-                    </div>
-                </div>
+<!--                <div class="nav-item">
+            <div class="top-nav-search">
+                            <a href="javascript:void(0);" class="responsive-search">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <form action="search.html">
+                                <input class="form-control" type="text" placeholder="Search here">
+                                <button class="btn" type="submit" style="margin-top: -10px;"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                </div>-->
                 <div class="card-body">
 
                     <div class="table-responsive">

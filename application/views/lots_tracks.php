@@ -1,14 +1,25 @@
 <div class="content container-fluid">
 
+    <div class="page-header">
+        <div class="row align-items-center">
+            <div class="col">
+                <h3 class="page-title">Lots & Tracks</h3>
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="<?php echo base_url('home'); ?>">Home</a></li>
+                    <li class="breadcrumb-item active">Lots & Tracks</li>
+                </ul>
+            </div>
+            <div class="col-auto float-right ml-auto">
+                <a href="<?php echo base_url('lots_tracks/add'); ?>" class="btn add-btn"><i class="fa fa-plus"></i>Create Lots & Tracks</a>
+                
+            </div>
+        </div>
+    </div>
+    
     <div class="row">
         <div class="col-sm-12">
             <div class="card mb-0">
-                <div class="card-header">
-                    <h4 class="card-title mb-0">Lots & Tracks</h4>
-                    <div class="col-auto float-right ml-auto">
-                        <a href="<?php echo base_url('lots_tracks/add'); ?>" class="btn add-btn"><i class="fa fa-plus"></i> Create Lots & Tracks</a>
-                    </div>
-                </div>
+                
                 <div class="card-body">
 
                     <div class="table-responsive">

@@ -15,8 +15,8 @@
 				<div class="container">
 				
 					<!-- Account Logo -->
-					<div class="account-logo" style="margin-top: 10%;">
-						<a href="#"><img src="<?php echo base_url(); ?>assets/images/logo_new.jpg" alt="Dreamguy's Technologies"></a>
+					<div class="account-logo" style="margin-top: 2%;">
+						<a href="#"><img src="<?php echo base_url(); ?>assets/images/logo.jpg" alt="Dreamguy's Technologies"></a>
 					</div>
 					<!-- /Account Logo -->
 					
@@ -26,7 +26,7 @@
 							<p class="account-subtitle">Access to our dashboard</p>
 							
 							<!-- Account Form -->
-							<form action="<?php echo base_url('login/profile'); ?>">
+							<form action="<?php echo base_url('profile'); ?>">
 								<div class="form-group">
 									<label>Email Address</label>
 									<input class="form-control" type="text">
@@ -37,7 +37,7 @@
 											<label>Password</label>
 										</div>
 										<div class="col-auto">
-											<a class="text-muted" href="<?php echo base_url('Login/register'); ?>">
+											<a class="text-muted" href="<?php echo base_url('login/forgot_password'); ?>">
 												Forgot password?
 											</a>
 										</div>

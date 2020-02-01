@@ -1,6 +1,6 @@
 <?php
 
-class lots_tracks extends My_Controller {
+class Lots_Tracks extends My_Controller {
 
     public function __construct() {
 

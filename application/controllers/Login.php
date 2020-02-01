@@ -70,40 +70,21 @@ class login extends My_Controller {
         redirect('login');
     }
 
-    public function register() {
-        $this->load->view('signup');
+    public function forgot_password() {
+        $this->load->view('forgot_password');
     }
 
     public function update_password() {
 
-        $this->load->view('include/header.php');
+        $this->load->view('include/header_new.php');
 
-        $this->load->view('include/sidebar.php');
+        $this->load->view('include/sidebar_new.php');
 
         $this->load->view('change_password');
 
-        $this->load->view('include/footer.php');
+        $this->load->view('include/footer_new.php');
     }
 
-    public function forgot_password() {
-
-        $this->load->view('forgot_password');
-    }
-
-    public function profile() {
-
-        $this->load->view('include/header_new');
-        $this->load->view('include/sidebar_new');
-        $this->load->view('profile');
-        $this->load->view('include/footer_new');
-    }
-
-    public function category() {
-        $this->load->view('include/header_new');
-        $this->load->view('include/sidebar_new');
-        $this->load->view('category');
-        $this->load->view('include/footer_new');
-    }
 
     public function reset_password() {
 

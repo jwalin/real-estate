@@ -1,6 +1,6 @@
 <html>
 <head>
- <title>RealEstate Template</title>
+ <title>Real Estate</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -17,27 +17,24 @@
 				<div class="container">
 				
 					<!-- Account Logo -->
-					<div class="account-logo" style="margin-top: 10%;">
-						<a href="index.html"><img src="<?php echo base_url(); ?>assets/images/logo2.png" alt="Dreamguy's Technologies"></a>
+					<div class="account-logo" style="margin-top: 8%;">
+						<a href="#"><img src="<?php echo base_url(); ?>assets/images/logo.jpg" alt="Dreamguy's Technologies"></a>
 					</div>
 					<!-- /Account Logo -->
 					
 					<div class="account-box">
 						<div class="account-wrapper">
-							<h3 class="account-title" style="margin-bottom: 20px;">Reset Password?</h3>
+							<h3 class="account-title">Forgot Password?</h3>
+							<p class="account-subtitle">Enter your email to get a password reset link</p>
 							
 							<!-- Account Form -->
 							<form>
 								<div class="form-group">
-									<label>Password</label>
-									<input class="form-control" type="password">
-								</div>
-								<div class="form-group">
-									<label>Reset Password</label>
-									<input class="form-control" type="password">
+									<label>Email Address</label>
+									<input class="form-control" type="text">
 								</div>
 								<div class="form-group text-center">
-									<button class="btn btn-primary account-btn" type="submit">Submit</button>
+									<button class="btn btn-primary account-btn" type="submit">Reset Password</button>
 								</div>
 								<div class="account-footer">
 									<p>Remember your password? <a href="<?php echo base_url('login'); ?>">Login</a></p>

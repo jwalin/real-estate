@@ -9,7 +9,7 @@
                 <div class="col-sm-12">
                     <h3 class="page-title">Profile</h3>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                        <li class="breadcrumb-item"><a href="<?php echo base_url('home'); ?>">Home</a></li>
                         <li class="breadcrumb-item active">Profile</li>
                     </ul>
                 </div>
@@ -27,14 +27,14 @@
                             </div>
                             <div class="profile-basic">
                                 <div class="row">
-                                    <div class="col-md-5" style="margin-left: -130px;">
+                                    <div class="col-md-5" style="margin-left: -80px;">
                                         <div class="profile-info-left">
                                             <h3 class="user-name m-t-0 mb-0">John Doe</h3>
                                             <h6 class="text-muted">UI/UX Design Team</h6>
                                             <small class="text-muted">Web Designer</small>
                                             <div class="staff-id">Employee ID : FT-0001</div>
                                             <div class="small doj text-muted">Date of Join : 1st Jan 2013</div>
-                                            <div class="staff-msg"><a class="btn btn-custom" href="chat.html">Send Message</a></div>
+                                            <div class="staff-msg"><a class="btn btn-custom" href="<?php echo base_url('profile/edit'); ?>">Send Message</a></div>
                                         </div>
                                     </div>
                                     <div class="col-md-7" style="margin-left: 80px;">
