@@ -4,7 +4,7 @@
 						<ul>
 							
 							<li> 
-								<a href="<?php echo base_url('profile'); ?>"><i class="la la-users"></i> <span>Profile</span></a>
+								<a href="<?php echo base_url('profile'); ?>"><i class="la la-user"></i> <span>Profile</span></a>
 							</li>
 							
 							<li> 
@@ -18,6 +18,11 @@
 							</li>
 							<li> 
 								<a href="<?php echo base_url('builder'); ?>"><i class="la la-ticket"></i> <span>Builder</span></a>
+							</li>
+							<li> 
+								<a href="<?php echo base_url('defect_location'); ?>"><i class="la la-ticket"></i> <span>Defect Location</span></a>
+							</li><li> 
+								<a href="<?php echo base_url('lots_tracks'); ?>"><i class="la la-ticket"></i> <span>Lots & Tracks</span></a>
 							</li>
 							
 							

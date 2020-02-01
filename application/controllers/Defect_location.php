@@ -1,6 +1,6 @@
 <?php
 
-class defect_location extends My_Controller {
+class Defect_location extends My_Controller {
 
     public function __construct() {
 

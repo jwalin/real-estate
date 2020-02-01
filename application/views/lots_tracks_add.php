@@ -8,12 +8,12 @@
 						<div class="col-lg-12">
 							<div class="card">
 								<div class="card-header">
-									<h4 class="card-title mb-0">Category Add</h4>
+									<h4 class="card-title mb-0">Lots & Tracks Add</h4>
 								</div>
 								<div class="card-body">
-									<form action="<?php echo base_url('category'); ?>">
+									<form action="<?php echo base_url('lots_tracks'); ?>">
 										<div class="form-group row">
-											<label class="col-form-label col-md-2">Name</label>
+											<label class="col-form-label col-md-2">Track Name</label>
 											<div class="col-md-10">
 												<input type="text" class="form-control" name="Tiger Nixon">
 											</div>

@@ -1,13 +1,12 @@
-
 <div class="content container-fluid">
 
     <div class="row">
         <div class="col-sm-12">
             <div class="card mb-0">
                 <div class="card-header">
-                    <h4 class="card-title mb-0">Builder</h4>
+                    <h4 class="card-title mb-0">Lots & Tracks</h4>
                     <div class="col-auto float-right ml-auto">
-                        <a href="<?php echo base_url('builder/add'); ?>" class="btn add-btn"><i class="fa fa-plus"></i> Create Builder</a>
+                        <a href="<?php echo base_url('lots_tracks/add'); ?>" class="btn add-btn"><i class="fa fa-plus"></i> Create Lots & Tracks</a>
                     </div>
                 </div>
                 <div class="card-body">
@@ -17,21 +16,19 @@
                             <thead>
                                 <tr>
                                     <th>No</th>
-                                    <th>Name</th>
-                                    <th>Email</th>
+                                    <th>Track Name</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>1</td>
-                                    <td>John Smith</td>
-                                    <td>JohnSmith@gmail.com</td>
+                                    <td>Tiger Nixon</td>
                                     <td>
                                         <div class="dropdown dropdown-action">
                                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="<?php echo base_url('builder/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                <a class="dropdown-item" href="<?php echo base_url('lots_tracks/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
                                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_approve"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
                                             </div>
                                         </div>
@@ -39,13 +36,12 @@
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Lesley Grauer</td>
-                                    <td>LesleyGrauer@gmail.com</td>
+                                    <td>Garrett Winters</td>
                                     <td>
                                         <div class="dropdown dropdown-action">
                                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="<?php echo base_url('builder/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                <a class="dropdown-item" href="<?php echo base_url('lots_tracks/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
                                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_approve"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
                                             </div>
                                         </div>
@@ -53,13 +49,12 @@
                                 </tr>
                                 <tr>
                                     <td>3</td>
-                                    <td>Jeffrey Warden</td>
-                                    <td>JeffreyWarden@gmail.com</td>
+                                    <td>Ashton Cox</td>
                                     <td>
                                         <div class="dropdown dropdown-action">
                                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="<?php echo base_url('builder/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                <a class="dropdown-item" href="<?php echo base_url('lots_tracks/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
                                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_approve"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
                                             </div>
                                         </div>

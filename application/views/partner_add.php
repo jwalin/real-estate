@@ -37,11 +37,12 @@
 										
 										</div>
 											
-										</div>
+									
 										<div class="text-right">
-											<button type="submit" class="btn btn-primary">Cancel</button>
+											<button type="submit" class="btn btn-primary" style="background-color: red; border-color: red;">Cancel</button>
 											<button type="submit" class="btn btn-primary">Submit</button>
 										</div>
+											</div>
 									</form>
 								</div>
 							</div>

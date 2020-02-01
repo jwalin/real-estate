@@ -17,7 +17,7 @@
                             <thead>
                                 <tr>
                                     <th>No</th>
-                                    <th>Name</th>
+                                    <th>Name of Types</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
