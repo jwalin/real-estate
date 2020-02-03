@@ -1557,7 +1557,7 @@ table.dataTable thead > tr > td.sorting {
          margin-top: 5px;
 }
 .card-header {
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 .page-header .breadcrumb {
     background-color: transparent;
