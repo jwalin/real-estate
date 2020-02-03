@@ -26,7 +26,7 @@
 							<p class="account-subtitle">Access to our dashboard</p>
 							
 							<!-- Account Form -->
-							<form action="<?php echo base_url('profile'); ?>">
+                                                        <form action="<?php echo base_url('home'); ?>" method="post">
 								<div class="form-group">
 									<label>Email Address</label>
 									<input class="form-control" type="text">

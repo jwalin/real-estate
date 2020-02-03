@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+        <link rel="icon" href="<?php echo base_url(); ?>assets/images/logo.jpg" type="image/x-icon" />
         <title>EZQC | De Young Properties</title>
 
         <!-- Bootstrap CSS -->
@@ -49,6 +50,16 @@
                 .moibile_pro_menu .user-img{
                     margin-top: 15px;
                 }
+            }
+            .user-menu.nav > li > a {
+                line-height: 70px;
+                height: 70px;
+            }
+            .user-menu.nav > li > a > i {
+                line-height: 75px;
+            }
+            .user-menu.nav > li > a .badge {
+                top: 14px;
             }
         </style>
     </head>
