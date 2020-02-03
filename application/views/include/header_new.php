@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-        <title>Real Estate</title>
+        <title>EZQC | De Young Properties</title>
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://dreamguys.co.in/smarthr/orange/assets/css/bootstrap.min.css">
@@ -26,13 +26,29 @@
         <!-- Main CSS -->
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
         <style>
+            .logo_img_middle{width: 25%;}
             @media (max-width: 768px){
+                .logo_img_middle{width: 15%;}
                 .nav.user-menu{ 
                     display: block !important;
-                    margin-right: 40px;
+                    margin: 0;
                     margin-top: 5px;
                 }
-                
+                .user-menu.nav > li > a > i {
+                    line-height: 65px;
+                }
+                .moibile_not_menu{
+                    float: left;
+                }
+                .moibile_pro_menu{
+                    float: right;
+                }
+                .mobile-user-menu > a {
+                    color: #212E6E !important;
+                }
+                .moibile_pro_menu .user-img{
+                    margin-top: 15px;
+                }
             }
         </style>
     </head>
@@ -44,8 +60,8 @@
 
                 <!-- Logo -->
                 <div class="header-left" style="margin-top: 10px;">
-                    <a href="index.html" class="logo">
-                        <img src="<?php echo base_url(); ?>assets/images/logo.jpg" width="60" height="50" alt="">
+                    <a href="<?php echo base_url('home'); ?>" class="logo">
+                        <img src="<?php echo base_url(); ?>assets/images/logo.jpg" class="logo_img_middle" alt="">
                     </a>
                 </div>
                 <!-- /Logo -->
@@ -68,7 +84,7 @@
 
                 <!-- Header Menu -->
                 <ul class="nav user-menu">
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown moibile_not_menu">
                         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                             <i class="fa fa-bell-o"></i> <span class="badge badge-pill">3</span>
                         </a>
@@ -80,7 +96,7 @@
                             <div class="noti-content">
                                 <ul class="notification-list">
                                     <li class="notification-message">
-                                        <a href="activities.html">
+                                        <a href="#">
                                             <div class="media">
                                                 <span class="avatar">
                                                     <img alt="" src="<?php echo base_url(); ?>assets/images/profile/not-1.jpg">
@@ -93,7 +109,7 @@
                                         </a>
                                     </li>
                                     <li class="notification-message">
-                                        <a href="activities.html">
+                                        <a href="#">
                                             <div class="media">
                                                 <span class="avatar">
                                                     <img alt="" src="<?php echo base_url(); ?>assets/images/profile/not-2.jpg">
@@ -106,7 +122,7 @@
                                         </a>
                                     </li>
                                     <li class="notification-message">
-                                        <a href="activities.html">
+                                        <a href="#">
                                             <div class="media">
                                                 <span class="avatar">
                                                     <img alt="" src="<?php echo base_url(); ?>assets/images/profile/not-3.jpg">
@@ -122,7 +138,7 @@
                                 </ul>
                             </div>
                             <div class="topnav-dropdown-footer">
-                                <a href="activities.html">View all Notifications</a>
+                                <a href="#">View all Notifications</a>
                             </div>
                         </div>
                     </li>
@@ -130,7 +146,7 @@
                     
                     <!-- /Message Notifications -->
 
-                    <li class="nav-item dropdown has-arrow main-drop">
+                    <li class="nav-item dropdown has-arrow main-drop moibile_pro_menu">
                         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                             <span class="user-img"><img src="<?php echo base_url(); ?>assets/images/profile/avatar-21.jpg" alt="">
                                 <span class="status online"></span></span>
@@ -146,7 +162,7 @@
 
                 <!-- Mobile Menu -->
                 <div class="dropdown mobile-user-menu">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                    <!--<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>-->
                     <div class="dropdown-menu dropdown-menu-right">
                         <a class="dropdown-item" href="<?php echo base_url('login/update_password'); ?>">Change Password</a>
                         <a class="dropdown-item" href="<?php echo base_url('login'); ?>">Logout</a>
