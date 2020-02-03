@@ -5,15 +5,19 @@
 
         <!-- Page Header -->
         <div class="page-header">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h3 class="page-title">Profile</h3>
-                    <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="<?php echo base_url('home'); ?>">Home</a></li>
-                        <li class="breadcrumb-item active">Profile</li>
-                    </ul>
-                </div>
+            <div class="row align-items-center">
+            <div class="col">
+                <h3 class="page-title">Profile</h3>
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="<?php echo base_url('home'); ?>">Home</a></li>
+                    <li class="breadcrumb-item active">Profile</li>
+                </ul>
             </div>
+            <div class="col-auto float-right ml-auto">
+                <a href="<?php echo base_url('profile/edit'); ?>" class="btn add-btn"><i class="fa fa-edit"></i>Edit Profile</a>
+                
+            </div>
+        </div>
         </div>
         <!-- /Page Header -->
 
@@ -22,9 +26,6 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="profile-view">
-                            <div class="profile-img-wrap">
-
-                            </div>
                             <div class="profile-basic">
                                 <div class="row">
                                     <div class="col-md-5" style="margin-left: -80px;">
@@ -34,7 +35,6 @@
                                             <small class="text-muted">Web Designer</small>
                                             <div class="staff-id">Employee ID : FT-0001</div>
                                             <div class="small doj text-muted">Date of Join : 1st Jan 2013</div>
-                                            <div class="staff-msg"><a class="btn btn-custom" href="<?php echo base_url('profile/edit'); ?>">Send Message</a></div>
                                         </div>
                                     </div>
                                     <div class="col-md-7" style="margin-left: 80px;">

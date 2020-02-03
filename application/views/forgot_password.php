@@ -34,7 +34,7 @@
 									<input class="form-control" type="text">
 								</div>
 								<div class="form-group text-center">
-									<button class="btn btn-primary account-btn" type="submit">Reset Password</button>
+									<button class="btn btn-primary account-btn" type="submit">Submit</button>
 								</div>
 								<div class="account-footer">
 									<p>Remember your password? <a href="<?php echo base_url('login'); ?>">Login</a></p>

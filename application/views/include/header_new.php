@@ -25,7 +25,16 @@
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/summernote-bs4.css">
         <!-- Main CSS -->
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
-
+        <style>
+            @media (max-width: 768px){
+                .nav.user-menu{ 
+                    display: block !important;
+                    margin-right: 40px;
+                    margin-top: 5px;
+                }
+                
+            }
+        </style>
     </head>
     <body>
         <!-- Main Wrapper -->
@@ -59,36 +68,6 @@
 
                 <!-- Header Menu -->
                 <ul class="nav user-menu">
-
-                    <!-- Search -->
-                   
-                    <!-- /Search -->
-
-                    <!-- Flag -->
-                    <!--                    <li class="nav-item dropdown has-arrow flag-nav">
-                                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button">
-                                                <img src="<//?php echo base_url(); ?>assets/images/flags/us.png" alt="" height="20"> <span>English</span>
-                                            </a>
-                                            <div class="dropdown-menu dropdown-menu-right">
-                                                <a href="javascript:void(0);" class="dropdown-item">
-                                                    <img src="assets/img/flags/us.png" alt="" height="16"> English
-                                                </a>
-                                                <a href="javascript:void(0);" class="dropdown-item">
-                                                    <img src="assets/img/flags/fr.png" alt="" height="16"> French
-                                                </a>
-                                                <a href="javascript:void(0);" class="dropdown-item">
-                                                    <img src="assets/img/flags/es.png" alt="" height="16"> Spanish
-                                                </a>
-                                                <a href="javascript:void(0);" class="dropdown-item">
-                                                    <img src="assets/img/flags/de.png" alt="" height="16"> German
-                                                </a>
-                                            </div>
-                                        </li>-->
-                    <!-- /Flag -->
-
-                    <!-- Notifications -->
-
-                    <!-- /Notifications -->
                     <li class="nav-item dropdown">
                         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                             <i class="fa fa-bell-o"></i> <span class="badge badge-pill">3</span>
@@ -148,7 +127,7 @@
                         </div>
                     </li>
                     <!-- Message Notifications -->
-
+                    
                     <!-- /Message Notifications -->
 
                     <li class="nav-item dropdown has-arrow main-drop">

@@ -1554,8 +1554,7 @@ table.dataTable thead > tr > td.sorting {
 	padding: 30px;
 }
 .page-header {
-         margin-top: 0px;
-         margin-bottom: 15px;
+         margin-top: 5px;
 }
 .card-header {
     margin-bottom: 20px;
@@ -1572,6 +1571,7 @@ table.dataTable thead > tr > td.sorting {
 	color: #333;
 }
 .card {
+        margin-top: 8px;
 	border: 1px solid #ededed;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
 	margin-bottom: 30px;
@@ -3278,6 +3278,7 @@ table.dataTable thead > tr > td.sorting {
 	margin-bottom: 10px;
 }
 .personal-info {
+        margin-left: -36px;
 	list-style: none;
 	margin-bottom: 0;
 	padding: 0;
@@ -8050,6 +8051,7 @@ ul.comment-list li ul.children {
 	}
 	.profile-info-left {
 		text-align: center;
+                margin-left: 50%;
 	}
 	.profile-basic {
 		margin-left: 0;
