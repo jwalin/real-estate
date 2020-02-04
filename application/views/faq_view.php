@@ -15,7 +15,7 @@
     <!-- /Page Header -->
 
 
-    <div class="faq-card">
+    <div class="faq-card" style="margin-top: 20px;">
         <div class="card">
             <div class="card-header">
                 <h4 class="card-title">

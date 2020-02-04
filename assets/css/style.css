@@ -5986,7 +5986,7 @@ table.table-inbox tbody tr.checked {
 .comp-section {
     margin-bottom: 30px;
     padding-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .comp-section:last-child {
     margin-bottom: 0;

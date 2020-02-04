@@ -14,18 +14,18 @@
     </div>
 
 
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="card">
+    <div class="row" style="background-color: #fff; margin-top: 20px;">
+        <div class="col-lg-8">
+            <div class="card" style="border: 0px solid; box-shadow: 0 0px 0px 0;">
                 <div class="card-body">
-                    <form action="<?php echo base_url('defect_types'); ?>">
+                    <form action="<?php echo base_url('support/contact_support'); ?>">
                         <div class="form-group row" style="margin-top: 20px;">
-                            <label class="col-form-label col-md-2">Subject</label>
-                            <div class="col-md-10">
+                            <label class="col-form-label col-md-3">Subject</label>
+                            <div class="col-md-9">
                                 <input type="text" class="form-control" name="Tiger Nixon"><br>
                             </div>
-                            <label class="col-form-label col-md-2">Message</label>
-                            <div class="col-md-10">
+                            <label class="col-form-label col-md-3">Message</label>
+                            <div class="col-md-9">
                                 <textarea name="message" class="form-control"></textarea>
                             </div>
                         </div>
@@ -37,6 +37,7 @@
             </div>
 
         </div>
+
     </div>
 </div>
 

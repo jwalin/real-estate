@@ -29,7 +29,7 @@
         <style>
             .logo_img_middle{width: 25%;}
             @media (max-width: 768px){
-                .logo_img_middle{width: 15%;}
+                .logo_img_middle{width: 14% !important;}
                 .nav.user-menu{ 
                     display: block !important;
                     margin: 0;
@@ -70,7 +70,7 @@
             <div class="header" style="background-color: #fff !important; ">
 
                 <!-- Logo -->
-                <div class="header-left" style="margin-top: 10px;">
+                <div class="header-left" style="margin-top: 0px;">
                     <a href="<?php echo base_url('home'); ?>" class="logo">
                         <img src="<?php echo base_url(); ?>assets/images/logo.jpg" class="logo_img_middle" alt="">
                     </a>
@@ -87,7 +87,7 @@
 
                 <!-- Header Title -->
                 <div class="page-title-box">
-                    <h3 style="color: #25337A;">Real Estate</h3>
+                    <h3 style="color: #25337A;">De Young Properties</h3>
                 </div>
                 <!-- /Header Title -->
 

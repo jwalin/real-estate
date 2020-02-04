@@ -16,5 +16,16 @@ class Home extends CI_Controller {
     }
     
 
+    public function defect_list() {    
+        
+        $this->load->view('include/header_new.php');
+        $this->load->view('include/sidebar_new.php');
+        $this->load->view('defect_list');
+        $this->load->view('include/footer_new.php');
+    }
+    
+    
+    
+
 }
 ?>
