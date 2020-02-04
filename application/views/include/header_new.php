@@ -26,8 +26,11 @@
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/summernote-bs4.css">
         <!-- Main CSS -->
         <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
+        <script src="<?php echo base_url(); ?>assets/js/jquery-3.2.1.min.js"></script>
         <style>
-            .logo_img_middle{width: 25%;}
+            .theme_color{color: #25337A !important;}
+            .clearfix{clear: both !important;}
+            .logo_img_middle{width: 25%;margin-top: 10px;}
             @media (max-width: 768px){
                 .logo_img_middle{width: 14% !important;}
                 .nav.user-menu{ 

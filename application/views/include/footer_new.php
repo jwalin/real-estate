@@ -2,7 +2,7 @@
 <!-- /Main Wrapper -->
 
 <!-- jQuery -->
-<script src="<?php echo base_url(); ?>assets/js/jquery-3.2.1.min.js"></script>
+<!--<script src="<?php echo base_url(); ?>assets/js/jquery-3.2.1.min.js"></script>-->
 
 <!-- Bootstrap Core JS -->
 <script src="<?php echo base_url(); ?>assets/js/popper.min.js"></script>

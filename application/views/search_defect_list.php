@@ -7,23 +7,15 @@
                     <div class="col-sm-6 pull-left">
                         <form action="#" method="post">
                             <fieldset>
-                                <h2 class="theme_color">New Defect List - Step 1</h2><br><br>
-                                <h4><u>Which Job?</u></h4>
-                                <br>
+                                <h2 class="theme_color">Search Defect List - Step 1</h2><br><br>
+                                <h4><u>Search Defect Lists</u></h4>
+                                <br/>
                                 <div class="form-group">
                                     <input type="text" placeholder="Enter Job Address or Lot/Tract Here" class="form-control">
                                 </div>
-                                <a href="<?php echo base_url('home/defect_list_step_2'); ?>"><button type="button" class="btn btn-primary">&nbsp;Start&nbsp;</button></a>
-                                <br><br>
-                                <h3>-- or --</h3><br>
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option> Select by tract</option>
-                                        <option>Admin</option>
-                                        <option>Normal user</option>
-                                        <option>Read only user</option>
-                                    </select>
-                                </div>
+                                <a href="#"><button type="button" class="btn btn-primary">&nbsp;Search&nbsp;</button></a>
+                                
+                                <h3 class="m-3">-- or --</h3>
                                 <div class="form-group">
                                     <select class="form-control">
                                         <option> Select by lot</option>
@@ -31,8 +23,14 @@
                                         <option>Normal user</option>
                                         <option>Read only user</option>
                                     </select>
-                                </div><br/>
-                                <a href="<?php echo base_url('home/defect_list_step_2'); ?>"><input type="button" class="btn btn-primary" value="Next" /></a>
+                                </div>
+                                <h3 class="m-3">-- or --</h3>
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option>Select by Trade Partner</option>
+                                    </select>
+                                </div>
+                                <a href="#"><input type="button" class="btn btn-primary mt-3" value="Next" /></a>
                             </fieldset>
                         </form>
                     </div>

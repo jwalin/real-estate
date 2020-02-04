@@ -26,34 +26,34 @@ if ($this->router->fetch_class() == 'support')
     } 
 ?>
 
-
 <style>
     .submenu ul li a i{font-size: 13px !important;}
     .noti-dot:before{border: none;width: 0;}
     .sidebar-menu li.active a{background-color: rgba(0, 0, 0, 0.1);}
+    ul.menu_sidebar li.active{background-color: rgba(0, 0, 0, 0.2);}
 </style>
 <div class="sidebar" id="sidebar">
     <div class="sidebar-inner slimscroll">
         <div id="sidebar-menu" class="sidebar-menu">
-            <ul>
+            <ul class="menu_sidebar">
 
-                <li class="<?php if ($this->router->fetch_class() == 'home') { ?> active <?php } ?>"> 
+                <li class="<?php if ($this->router->fetch_class() == 'home' && $this->router->fetch_method() == 'index') { ?> active <?php } ?>"> 
                     <a href="<?php echo base_url('home'); ?>"><i class="la la-home"></i> <span>Home</span></a>
                 </li>
                 
-                <li class="<?php if ($this->router->fetch_class() == 'home') { ?> active <?php } ?>"> 
-                    <a href="<?php echo base_url('home'); ?>"><i class="la la-file-text"></i> <span>New List</span></a>
+                <li class="<?php if ($this->router->fetch_method() == 'defect_list' || $this->router->fetch_method() == 'defect_list_step_2' || $this->router->fetch_method() == 'defect_list_step_3' || $this->router->fetch_method() == 'review_complete_defect_list') { ?> active <?php } ?>"> 
+                    <a href="<?php echo base_url('home/defect_list'); ?>"><i class="la la-file-text"></i> <span>New List</span></a>
                 </li>
                 
-                <li class="<?php if ($this->router->fetch_class() == 'home') { ?> active <?php } ?>"> 
-                    <a href="<?php echo base_url('home'); ?>"><i class="la la-search"></i> <span>Search List</span></a>
+                <li class="<?php if ($this->router->fetch_class() == 'search_defect') { ?> active <?php } ?>"> 
+                    <a href="<?php echo base_url('search_defect/'); ?>"><i class="la la-search"></i> <span>Search List</span></a>
                 </li>
                 
-                <li class="<?php if ($this->router->fetch_class() == 'home') { ?> active <?php } ?>"> 
+                <li class="<?php if ($this->router->fetch_class() == '') { ?> active <?php } ?>"> 
                     <a href="<?php echo base_url('home'); ?>"><i class="la la-search"></i> <span>Search a Label</span></a>
                 </li>
                 
-                <li class="<?php if ($this->router->fetch_class() == 'home') { ?> active <?php } ?>"> 
+                <li class="<?php if ($this->router->fetch_class() == '') { ?> active <?php } ?>"> 
                     <a href="<?php echo base_url('home'); ?>"><i class="la la-object-group"></i> <span>Analytics</span></a>
                 </li>
 
