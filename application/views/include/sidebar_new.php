@@ -46,11 +46,11 @@ if ($this->router->fetch_class() == 'support')
                 </li>
                 
                 <li class="<?php if ($this->router->fetch_class() == 'search_defect') { ?> active <?php } ?>"> 
-                    <a href="<?php echo base_url('search_defect/'); ?>"><i class="la la-search"></i> <span>Search List</span></a>
+                    <a href="<?php echo base_url('search_defect'); ?>"><i class="la la-search"></i> <span>Search List</span></a>
                 </li>
                 
-                <li class="<?php if ($this->router->fetch_class() == '') { ?> active <?php } ?>"> 
-                    <a href="<?php echo base_url('home'); ?>"><i class="la la-search"></i> <span>Search a Label</span></a>
+                <li class="<?php if ($this->router->fetch_class() == 'search_label') { ?> active <?php } ?>"> 
+                    <a href="<?php echo base_url('search_label'); ?>"><i class="la la-search"></i> <span>Search a Label</span></a>
                 </li>
                 
                 <li class="<?php if ($this->router->fetch_class() == '') { ?> active <?php } ?>"> 

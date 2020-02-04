@@ -7,7 +7,7 @@
                     <div class="col-sm-6 pull-left">
                         <form action="#" method="post">
                             <fieldset>
-                                <h2 class="theme_color">Search Defect List - Step 1</h2><br><br>
+                                <h2 class="theme_color">Search Defect List</h2><br><br>
                                 <h4><u>Search Defect Lists</u></h4>
                                 <br/>
                                 <div class="form-group">
