@@ -14,10 +14,14 @@
         <div class="col-sm-12">
             <div class="card mb-0">
                 <div class="card-body p-20 text-center">
-                    <img src="<?php echo base_url(); ?>assets/images/logo-home.png" class="img-responsive" width="25%"><br><br>
-                    <button class="btn btn-primary"><a href="<?php echo base_url('home/defect_list'); ?>" style="color: #fff;">New Defect List</a></button>
-                    <button class="btn btn-primary">Search Defect List</button><br><br> 
-                    <textarea rows="8" style="width: 50%"></textarea>
+                    <div class="col-sm-3 pull-left">&nbsp;</div>
+                    <div class="col-sm-6 pull-left">
+                    <img src="<?php echo base_url(); ?>assets/images/logo-home.png" class="img-responsive" width="50%"><br><br>
+                    <button class="btn btn-primary mb-3"><a href="<?php echo base_url('home/defect_list'); ?>" style="color: #fff;">New Defect List</a></button>
+                    <button class="btn btn-primary mb-3">Search Defect List</button>
+                    <textarea rows="8" class="form-control"></textarea>
+                    </div>
+                    <div class="col-sm-3 pull-left">&nbsp;</div>
                 </div>
                 
             </div>
