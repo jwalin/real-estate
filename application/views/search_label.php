@@ -11,7 +11,7 @@
                                 <h4><u>Search a Label</u></h4>
                                 <br/>
                                 <div class="form-group">
-                                    <input type="text" placeholder="Enter Job Address or Lot/Tract Here" class="form-control">
+                                    <input type="text" placeholder="Search a Label" class="form-control">
                                 </div>
                                 <a href="#"><button type="button" class="btn btn-primary mt-3">&nbsp;Search&nbsp;</button></a>
                             </fieldset>
