@@ -41,8 +41,36 @@
                             </fieldset>
                         </form>
                     </div>
+<<<<<<< HEAD
                     
                     <div class="col-sm-3 pull-left">&nbsp;</div>
+=======
+                    <button class="btn btn-primary">&nbsp;Start&nbsp;</button>
+                    <br><br>
+                    <h3>-- or --</h3><br><br>
+                    <div class="form-group">
+                     <select class="form-control-sm" style="width: 35%;">
+                                    <option> Select by tract</option>
+                                    <option>Admin</option>
+                                    <option>Normal user</option>
+                                    <option>Read only user</option>
+                     </select><br><br>
+                    </div>
+                    <div class="form-group">
+                     <select class="form-control-sm" style="width: 35%;">
+                                    <option> Select by lot</option>
+                                    <option>Admin</option>
+                                    <option>Normal user</option>
+                                    <option>Read only user</option>
+                     </select><br><br><br>
+                    </div>
+                     <input type="button" name="password" class="btn btn-primary" style="float: right;" value="Next" />
+  </fieldset>
+                         <fieldset>
+                             
+                         </fieldset>
+                     </form>
+>>>>>>> f5fa9514e159079d6c82b4b978a7b78ad6bca5ae
                 </div>
 
             </div>

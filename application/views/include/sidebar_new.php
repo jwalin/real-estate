@@ -73,7 +73,7 @@ if ($this->router->fetch_class() == 'support')
                         </li>
                         
                         <li class="<?php if ($this->router->fetch_class() == 'lots_tracks') { ?> active <?php } ?>"> 
-                            <a href="<?php echo base_url('lots_tracks'); ?>"><i class="la la-angle-right"></i> <span>Lots & Tracts</span></a>
+                            <a href="<?php echo base_url('lots_tracts'); ?>"><i class="la la-angle-right"></i> <span>Lots & Tracts</span></a>
                         </li>
                         
                         <li class="<?php if ($this->router->fetch_class() == 'partner') { ?> active <?php } ?>"> 
