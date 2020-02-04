@@ -3,14 +3,14 @@
     <div class="page-header">
         <div class="row align-items-center">
             <div class="col">
-                <h3 class="page-title">Lots & Tracks</h3>
+                <h3 class="page-title">Lots & Tracts</h3>
                 <ul class="breadcrumb">
                     <li class="breadcrumb-item"><a href="<?php echo base_url('home'); ?>">Home</a></li>
-                    <li class="breadcrumb-item active">Lots & Tracks</li>
+                    <li class="breadcrumb-item active">Lots & Tracts</li>
                 </ul>
             </div>
             <div class="col-auto float-right ml-auto">
-                <a href="<?php echo base_url('lots_tracks/add'); ?>" class="btn add-btn"><i class="fa fa-plus"></i>Create Lots & Tracks</a>
+                <a href="<?php echo base_url('lots_tracts/add'); ?>" class="btn add-btn"><i class="fa fa-plus"></i>Create Lots & Tracts</a>
                 
             </div>
         </div>
@@ -27,7 +27,7 @@
                             <thead>
                                 <tr>
                                     <th>No</th>
-                                    <th>Track Name</th>
+                                    <th>Tract Name</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
@@ -39,7 +39,7 @@
                                         <div class="dropdown dropdown-action">
                                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="<?php echo base_url('lots_tracks/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                <a class="dropdown-item" href="<?php echo base_url('lots_tracts/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
                                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_approve"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
                                             </div>
                                         </div>
@@ -52,7 +52,7 @@
                                         <div class="dropdown dropdown-action">
                                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="<?php echo base_url('lots_tracks/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                <a class="dropdown-item" href="<?php echo base_url('lots_tracts/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
                                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_approve"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
                                             </div>
                                         </div>
@@ -65,7 +65,7 @@
                                         <div class="dropdown dropdown-action">
                                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="material-icons">more_vert</i></a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <a class="dropdown-item" href="<?php echo base_url('lots_tracks/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
+                                                <a class="dropdown-item" href="<?php echo base_url('lots_tracts/edit'); ?>"><i class="fa fa-pencil m-r-5"></i> Edit</a>
                                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_approve"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
                                             </div>
                                         </div>

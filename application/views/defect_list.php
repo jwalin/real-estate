@@ -38,6 +38,9 @@
                     </div>
                      <input type="button" name="password" class="btn btn-primary" style="float: right;" value="Next" />
   </fieldset>
+                         <fieldset>
+                             
+                         </fieldset>
                      </form>
                 </div>
                 
