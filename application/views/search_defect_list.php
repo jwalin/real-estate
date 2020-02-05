@@ -13,7 +13,7 @@
                                 <div class="form-group">
                                     <input type="text" placeholder="Enter Job Address or Lot/Tract Here" class="form-control">
                                 </div>
-                                <a href="#"><button type="button" class="btn btn-primary">&nbsp;Search&nbsp;</button></a>
+                                <a href="<?php echo base_url('search_defect/search_result'); ?>"><button type="button" class="btn btn-primary">&nbsp;Search&nbsp;</button></a>
                                 
                                 <h3 class="m-3">-- or --</h3>
                                 <div class="form-group">
@@ -30,7 +30,7 @@
                                         <option>Select by Trade Partner</option>
                                     </select>
                                 </div>
-                                <a href="#"><input type="button" class="btn btn-primary mt-3" value="Next" /></a>
+                                <a href="<?php echo base_url('search_defect/search_result'); ?>"><input type="button" class="btn btn-primary mt-3" value="Next" /></a>
                             </fieldset>
                         </form>
                     </div>
