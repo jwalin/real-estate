@@ -11,7 +11,7 @@ if ($this->router->fetch_class() == 'profile' ||
     $this->router->fetch_class() == 'partner' || 
     $this->router->fetch_class() == 'builder' || 
     $this->router->fetch_class() == 'defect_location' || 
-    $this->router->fetch_class() == 'lots_tracks')
+    $this->router->fetch_class() == 'lots_tracts')
     {
         $settings = "subdrop";
         $settings_display = "style='display: block;'";
@@ -25,7 +25,6 @@ if ($this->router->fetch_class() == 'support')
         $support_bg = "style='background-color: rgba(0, 0, 0, 0.2);'";
     } 
 ?>
-
 <style>
     .submenu ul li a i{font-size: 13px !important;}
     .noti-dot:before{border: none;width: 0;}
@@ -72,7 +71,7 @@ if ($this->router->fetch_class() == 'support')
                             <a href="<?php echo base_url('builder'); ?>"><i class="la la-angle-right"></i> <span>Builder Profile</span></a>
                         </li>
                         
-                        <li class="<?php if ($this->router->fetch_class() == 'lots_tracks') { ?> active <?php } ?>"> 
+                        <li class="<?php if ($this->router->fetch_class() == 'lots_tracts') { ?> active <?php } ?>"> 
                             <a href="<?php echo base_url('lots_tracts'); ?>"><i class="la la-angle-right"></i> <span>Lots & Tracts</span></a>
                         </li>
                         

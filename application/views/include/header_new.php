@@ -31,8 +31,14 @@
             .theme_color{color: #25337A !important;}
             .clearfix{clear: both !important;}
             .logo_img_middle{width: 25%;margin-top: 10px;}
+            @media (min-width: 769px) and (max-width: 991px){
+                .logo_img_middle{width: 42px !important;}
+                .moibile_pro_menu .user-img{
+                    margin-top: 15px;
+                }
+            }
             @media (max-width: 768px){
-                .logo_img_middle{width: 14% !important;}
+                .logo_img_middle{width: 42px !important;}
                 .nav.user-menu{ 
                     display: block !important;
                     margin: 0;
