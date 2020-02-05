@@ -70,6 +70,7 @@
             .user-menu.nav > li > a .badge {
                 top: 14px;
             }
+            thead{border-top: 2px solid #dee2e6;}
         </style>
     </head>
     <body>

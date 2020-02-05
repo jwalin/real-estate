@@ -42,7 +42,7 @@
                         <!--<textarea rows="8" class="form-control"></textarea>-->
                     </div>
                     <div class="col-sm-3 pull-left">&nbsp;</div>
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 clearfix">
                         <div class="table-responsive">
                             <table class="datatable table table-stripped mb-0">
                                 <thead>
@@ -61,7 +61,6 @@
                                             <div class="title_tbl">Code:</div> <div class="text_tbl">AA0001</div>
                                             <div class="title_tbl">Category:</div> <div class="text_tbl">Category</div>
                                             <div class="title_tbl">Type:</div> <div class="text_tbl">Type</div>
-                                            <div class="title_tbl">Code:</div> <div class="text_tbl">AA0001</div>
                                         </td>
                                         <td class="text-center"><img src="<?php echo base_url(); ?>assets/images/logo.jpg" class="image_view_lg"></td>
                                         <td>Trade Partner</td>
@@ -81,7 +80,6 @@
                                             <div class="title_tbl">Code:</div> <div class="text_tbl">AA0001</div>
                                             <div class="title_tbl">Category:</div> <div class="text_tbl">Category</div>
                                             <div class="title_tbl">Type:</div> <div class="text_tbl">Type</div>
-                                            <div class="title_tbl">Code:</div> <div class="text_tbl">AA0001</div>
                                         </td>
                                         <td class="text-center"><img src="<?php echo base_url(); ?>assets/images/logo.jpg" class="image_view_lg"></td>
                                         <td>Trade Partner</td>
@@ -101,7 +99,6 @@
                                             <div class="title_tbl">Code:</div> <div class="text_tbl">AA0001</div>
                                             <div class="title_tbl">Category:</div> <div class="text_tbl">Category</div>
                                             <div class="title_tbl">Type:</div> <div class="text_tbl">Type</div>
-                                            <div class="title_tbl">Code:</div> <div class="text_tbl">AA0001</div>
                                         </td>
                                         <td class="text-center"><img src="<?php echo base_url(); ?>assets/images/logo.jpg" class="image_view_lg"></td>
                                         <td>Trade Partner</td>
@@ -121,7 +118,6 @@
                                             <div class="title_tbl">Code:</div> <div class="text_tbl">AA0001</div>
                                             <div class="title_tbl">Category:</div> <div class="text_tbl">Category</div>
                                             <div class="title_tbl">Type:</div> <div class="text_tbl">Type</div>
-                                            <div class="title_tbl">Code:</div> <div class="text_tbl">AA0001</div>
                                         </td>
                                         <td class="text-center"><img src="<?php echo base_url(); ?>assets/images/logo.jpg" class="image_view_lg"></td>
                                         <td>Trade Partner</td>
@@ -141,7 +137,6 @@
                                             <div class="title_tbl">Code:</div> <div class="text_tbl">AA0001</div>
                                             <div class="title_tbl">Category:</div> <div class="text_tbl">Category</div>
                                             <div class="title_tbl">Type:</div> <div class="text_tbl">Type</div>
-                                            <div class="title_tbl">Code:</div> <div class="text_tbl">AA0001</div>
                                         </td>
                                         <td class="text-center"><img src="<?php echo base_url(); ?>assets/images/logo.jpg" class="image_view_lg"></td>
                                         <td>Trade Partner</td>
