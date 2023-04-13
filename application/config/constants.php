@@ -1,5 +1,40 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+
+define('IMG_UPLOAD_PATH', 'https://ezqcapp.com/beta/upload/');
+define('LOGO_IMG', 'https://ezqcapp.com/beta/assets/images/logo.jpg');
+
+// Error code
+define("ERR_ACCESS_DENIED", 'Access denied.');
+define("ERR_SOMETHING_WRONG", 'Something went wrong!');
+define("ERR_INVALID_PARAMETER", 'not set.');
+define("ERR_NOT_FOUND", 'Record not found!');
+define("ERR_ALREADY_EXIST", 'already exist.');
+define("ERR_DATA_PROCESSING_ERROR", 'Data processing error.');
+define("ERR_ALL_FIELD_REQUIRED", 'All field are required.');
+define("ERR_EMAIL_NOT_EXIST", 'Your email not exists.');
+define("ERR_EMAIL_NOT_SENT", 'Mail not sent.');
+define("RECORD_ADDED", 'Record successfully added.');
+define("RECORD_UPDATED", 'Record successfully updated.');
+define("RECORD_DELETED", 'Record successfully deleted.');
+define("RECORD_IMPORTED", 'Record successfully imported.');
+define("CONFIRM_ALERT_DELETE", 'Are you sure you want to delete this record?');
+define("RECORD_NOT_FOUND", 'Record not found!');
+
+// Login
+define("NOT_LOGIN", 'Incorrect email or password.');
+define("COMPANY_NOT_ACTIVE", 'Your Company not active.');
+
+// Forgot Password
+define("FORGOT_MAIL_SENT", 'Password reset link send to your mail.');
+
+// Reset Password
+define("PASSWORD_NOT_MATCH", 'Password and confirm password not match.');
+define("PASSWORD_CHANGED", 'Password has been changed successfully.');
+
+// Change Password
+define("OLD_PASSWORD_NOT_MATCH", 'Old password is wrong.');
+
 /*
 |--------------------------------------------------------------------------
 | Display Debug backtrace

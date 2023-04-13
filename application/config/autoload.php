@@ -70,7 +70,8 @@ $autoload['libraries'] = array('database','form_validation','session');
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url', 'file');
+// $autoload['helper'] = array('url', 'file');
+$autoload['helper'] = array('url', 'file', 'general');
 
 /*
 | -------------------------------------------------------------------
@@ -144,4 +145,23 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array();
+$autoload['model'] = array(
+    'info_model',
+    'login_model',
+    'profile_model',
+    'category_model',
+    'trade_partner_model',
+    'trade_user_model',
+    'lots_model',
+    'defect_types_model',
+    'defect_location_model',
+    'label_trade_associations_model',
+    'setting_analytics_model',
+    'tracts_model',
+    'home_model',
+    'api_model',
+    'search_defect_model',
+    'incomplete_defects_model',
+    'graph_model',
+    'support_model',
+);

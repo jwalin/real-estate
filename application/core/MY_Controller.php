@@ -7,58 +7,77 @@ class My_Controller extends CI_Controller {
 
     public function __construct() {
         parent::__construct();
-    }
-
-    public function dateTime($date) {
-        return date('F l, Y ,m H:i A', strtotime($date));
-    }
-
-    public function created_date() {
-        return date('Y-m-d H:i:s');
-    }
-
-    public function send_email($email, $subject, $msg) {
-// return $this->success_response_body('success');
-// ini_set('display_errors', 1);
-// ini_set('display_startup_errors', 1);
-// error_reporting(E_ALL);
-
-        ini_set("SMTP", "sg2plcpnl0112.prod.sin2.secureserver.net");
-        ini_set("smtp_port", "465");
-
-        require_once(realpath(dirname(__FILE__)) . './phpmailer/class.phpmailer.php');
-
-        $mail = new PHPMailer(); // create a new object
-        $mail->IsSMTP(); // enable SMTP
-        $mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
-        $mail->SMTPAuth = true; // authentication enabled
-        $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
-        $mail->Host = "sg2plcpnl0112.prod.sin2.secureserver.net";
-        $mail->Port = 465; // or 587
-        $mail->IsHTML(true);
-        $mail->Username = "safan.marediya@itriangletechnolabs.com";
-        $mail->Password = "itt@123";
-        $mail->setfrom("safan.marediya@itriangletechnolabs.com");
-        $mail->Subject = $subject;
-        $mail->FromName = 'Slap';
-
-        $body = $msg;
-
-// $body = str_replace('{otp}', $otp, $body);
-
-        $mail->Body = $body;
-
-        $mail->AddAddress($email);
-
-        if (!$mail->Send()) {
-// $this->success_response_body('Something went wrong!');
-        } else {
-
-// $this->success_response_body('success');
+        if ($this->router->fetch_class() != "login" && $this->router->fetch_class() != "api") {
+            $this->is_validCheck();
+            $this->sess_id = $this->session->userdata('id');
+            $this->company_id = $this->session->userdata('company_id');
         }
     }
 
-}
+    private function is_validCheck() {
+        if ($this->session->userdata('validated') != TRUE) {
+            redirect('login');
+        }
+    }
+    
+    public function current_date() {
+        return date('Y-m-d H:i:s');
+    }
 
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
+    public function send_email($email, $subject, $msg, $attachment = '') {
+        ini_set("SMTP", "gator4169.hostgator.com");
+        ini_set("smtp_port", "465");
+
+        require_once(realpath(dirname(__FILE__)) . '/phpmailer/class.phpmailer.php');
+
+        $mail = new PHPMailer();
+        $mail->IsSMTP();
+        $mail->SMTPDebug = 1;
+        $mail->SMTPAuth = true;
+        $mail->SMTPSecure = 'ssl';
+        $mail->Host = "gator4169.hostgator.com";
+        $mail->Port = 465;
+        $mail->IsHTML(true);
+        $mail->Username = "no_reply@ezqcapp.com";
+        $mail->Password = "d;%-49iSS&%g";
+        $mail->SetFrom("no_reply@ezqcapp.com");
+        $mail->Subject = $subject;
+        $mail->FromName = 'EZQC';
+        $body = $msg;
+        $mail->Body = $body;
+        $mail->AddAddress($email);
+         if($attachment !=''){
+        $mail->AddAttachment($attachment, $name = 'Defect_list.pdf',  $encoding = 'base64', $type = 'application/pdf');
+        }
+        if (!$mail->Send()) {
+            return False;
+        } else {
+            return True;
+        }
+    }
+
+    public function generateRandomString($val) {
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $val; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString;
+    }
+
+    public function history_request($ids = "") {
+        if($ids != ""){
+            $_POST['delete_id'] = $ids;
+        }
+        $dt = array(
+            'company_id' => ($this->session->userdata('company_id')) ? $this->session->userdata('company_id') : 0,
+            'user_id' => ($this->session->userdata('id')) ? $this->session->userdata('id') : 0,
+            'request' => json_encode($_POST),
+            'description' => $this->router->fetch_class() . ' / ' . $this->router->fetch_method(),
+            'created_date' => date('Y-m-d H:i:s')
+        );
+        return $this->db->insert('history_tbl', $dt);
+    }
+
+}

@@ -23,14 +23,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-//$config['base_url'] = 'http://localhost/projects/airplane/admin/';
+//$config['base_url'] = 'http://localhost/';
 
 function base_url_path(){
 
 $script_path = preg_replace('#\/[^/]*$#', '', $_SERVER['SCRIPT_NAME']);
 return sprintf(
 "%s://%s%s/",
-ENVIRONMENT === "production" ? 'https' : 'http',
+ENVIRONMENT === "production" ? 'https' : 'https',
 $_SERVER['HTTP_HOST'],
 $script_path
 );
